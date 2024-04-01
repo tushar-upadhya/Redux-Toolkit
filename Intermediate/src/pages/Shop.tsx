@@ -1,7 +1,5 @@
 import ShopPageItem from "@/components/ShopPageItem";
-import {
-  fetchStoreItemsThunk,
-} from "@/redux/slices/storeSlice";
+import { fetchStoreItemsThunk } from "@/redux/slices/storeSlice";
 import { AppDispatch, RootState } from "@/redux/store";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
